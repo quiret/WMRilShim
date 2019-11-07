@@ -3,7 +3,7 @@
 #include <fstream>
 #include <ctime>
 #include <iostream>
-#include <ntddrilapitypes.h>
+#include <rilapitypes.h>
 
 using namespace std;
 

@@ -1,4 +1,4 @@
-// NPETSEC.h - Contains declarations of npetsec functions
+// WIMRILShim.h
 #pragma once
 #include <Windows.h>
 
