@@ -37,7 +37,7 @@ We assume that you have WoA ARM64 (build 18908 or earlier) deployed and installe
 1) put your phone into UEFI Mass Storage Mode
 2) connect your phone to the PC using USB
 3) mount the MainOS partition
-4) start regedit.exe on your PC and load the registry hive at *(drive letter of MainOS):\Windows\System32\config\SYSTEM* (you can load hives onto the HKLM node) with the name "W10A"
+4) start regedit.exe on your PC and load the registry hive at **(drive letter of MainOS):\Windows\System32\config\SYSTEM** (you can load hives onto the HKLM node) with the name "W10A"
 5) navigate to the registry key **Computer\HKEY_LOCAL_MACHINE\W10A\ControlSet001\Services\RILAdaptation\Parameters\0000**
 6) change the property **RILPath** to: WMRilShim.dll
 7) (optional:) unload the hive that is loaded at the W10A node
